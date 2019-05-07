@@ -1,0 +1,22 @@
+#div1 {
+	background-color: #CD5C5C;
+}
+#div2 {
+	background-color: #228B22;
+}
+
+#div3 {
+	background-color: #B2EBF2;
+}
+
+.div-first {
+	background-color: #1E90FF;
+}
+
+.divs:hover {
+	font-weight: bold;
+}
+
+
+
+
