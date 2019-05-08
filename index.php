@@ -1,6 +1,6 @@
-<?php $ptitle='Home'; include'Week02\personalHomepage\modules\_head.php'; ?>
-<?php include'Week02\personalHomepage\modules\_header.php'; ?>
-<?php include'Week02\personalHomepage\modules\_nav.php'; ?>
+<?php $ptitle='Home'; include'Week02/personalHomepage/modules/_head.php'; ?>
+<?php include'Week02/personalHomepage/modules/_header.php'; ?>
+<?php include'Week02/personalHomepage/modules/_nav.php'; ?>
 
     
         <div class="index">
