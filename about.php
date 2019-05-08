@@ -11,7 +11,7 @@
               <source media="(max-width: 600px)" srcset="images/philadelphia.jpg">
             <source media="(max-width: 800px)" srcset="images/philadelphia.jpg">                
 
-            <img src="images/philadelphia.jpg" alt="family vacation"> 
+            <img src="Week02/personalHomepage/images/philadelphia.jpg" alt="family vacation"> 
         </picture>
          <div>
              
