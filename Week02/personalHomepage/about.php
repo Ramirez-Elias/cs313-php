@@ -14,5 +14,5 @@
             <img src="images/philadelphia.jpg" alt="family vacation"> 
         </picture>
          <div>
-
+             
    <?php include'modules/_footer.php'; ?>
