@@ -12,7 +12,7 @@
             ?>
   </footer>
 
-    <script src="scripts/hamburger.js"></script>
+    <script src="Week02/personalHomepage/scripts/hamburger.js"></script>
     <script>
         //remember to add an ID of "mainmenu" to the nav ul
         var urlString = document.location.href;
