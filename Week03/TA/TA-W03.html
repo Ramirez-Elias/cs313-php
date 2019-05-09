@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>03 Teach : Team Activity</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <!--Create an HTML form that contains the following components:
+        Name (text)
+        Email (text)
+        Major (radio button) with the following options:
+            Computer Science
+            Web Design and Development
+            Computer information Technology
+            Computer Engineering
+            Comments (text area)-->
+       <h2>Form</h2>
+       <form action="result.php" method="get" target="_blank">
+            Name:
+           <input type="text" name="name">
+           <br>
+           <br>
+           Email:
+           <input type="text" name="email">
+           <br>
+           <br>
+           Major:<br>
+           <input type="radio" name="major" value="WDD" checked> Web Design and Development<br>
+           <input type="radio" name="major" value="CIT" checked> Computer information Technology<br>    
+           <input type="radio" name="major" value="CE" checked> Computer Engineering<br>    
+             <br><br><textarea name="comment" form="usrform">Enter text here...</textarea>
+           <br><br>
+           <input type="checkbox" name="continent1" value="North America"> North America<br>
+           <input type="checkbox" name="continent2" value="South America"> South America<br>
+           <input type="checkbox" name="continent3" value="Europe" checked> Europe<br>
+           <input type="checkbox" name="continent4" value="Asia"> Asia<br>
+           <input type="checkbox" name="continent5" value="Australia"> Australia<br>
+           <input type="checkbox" name="continent6" value="Africa"> Africa<br>
+           <input type="checkbox" name="continent7" value="Antarctica"> Antarctica<br>
+            <br><br><br><input type="submit" value="Submit">
+       </form>
+    </body>
+</html>
