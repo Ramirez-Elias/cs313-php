@@ -10,7 +10,7 @@
           <ul>
               <li>Week 3 Assignments 
                  <ul> 
-                    <li><a href="#">Team Activity</a></li>
+                    <li><a href="Week03/TA/TA-W03.html">Team Activity</a></li>
                     <li><a href="#">03 Prove: Assignment - Shopping Cart</a></li>
                  </ul>
               <li>Week 4 Assignments 
