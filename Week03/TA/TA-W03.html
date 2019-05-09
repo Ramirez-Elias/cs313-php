@@ -16,29 +16,29 @@
             Computer Engineering
             Comments (text area)-->
        <h2>Form</h2>
-       <form action="result.php" method="get" target="_blank">
+       <form action="result.php" method="get">
             Name:
-           <input type="text" name="name">
+           <input type="text" id="name" name="name">
            <br>
            <br>
            Email:
-           <input type="text" name="email">
+           <input type="text" id="email" name="email">
            <br>
            <br>
            Major:<br>
-           <input type="radio" name="major" value="WDD" checked> Web Design and Development<br>
-           <input type="radio" name="major" value="CIT" checked> Computer information Technology<br>    
-           <input type="radio" name="major" value="CE" checked> Computer Engineering<br>    
-             <br><br><textarea name="comment" form="usrform">Enter text here...</textarea>
+           <input type="radio" name="major"  id="WDD" value="Web Design and Development" checked> Web Design and Development<br>
+           <input type="radio" name="major" id="CIT" value="Computer information Technology" checked> Computer information Technology<br>    
+           <input type="radio" name="major" id="SE" value="Software Engineering" checked> Software Engineering<br>    
+             <br><br><textarea name="comment" id="comment" form="usrform">Enter text here...</textarea>
            <br><br>
-           <input type="checkbox" name="continent1" value="North America"> North America<br>
-           <input type="checkbox" name="continent2" value="South America"> South America<br>
-           <input type="checkbox" name="continent3" value="Europe" checked> Europe<br>
-           <input type="checkbox" name="continent4" value="Asia"> Asia<br>
-           <input type="checkbox" name="continent5" value="Australia"> Australia<br>
-           <input type="checkbox" name="continent6" value="Africa"> Africa<br>
-           <input type="checkbox" name="continent7" value="Antarctica"> Antarctica<br>
-            <br><br><br><input type="submit" value="Submit">
+           <input type="checkbox" name="places" id="NA" value="North America"> North America<br>
+           <input type="checkbox" name="places" id="SA"value="South America"> South America<br>
+           <input type="checkbox" name="places" id="EU" value="Europe" checked> Europe<br>
+           <input type="checkbox" name="places" id="AS" value="Asia"> Asia<br>
+           <input type="checkbox" name="places" id="AU" value="Australia"> Australia<br>
+           <input type="checkbox" name="places" id="AF" value="Africa"> Africa<br>
+           <input type="checkbox" name="places" id="AN" value="Antarctica"> Antarctica<br>
+            <br><br><br><input type="submit" id="submit" value="Submit">
        </form>
     </body>
 </html>
